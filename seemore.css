@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align the items at the top */
+    padding: 20px;
+}
+
+.text {
+    flex: 1; /* Takes up the remaining space on the left */
+    padding-right: 20px; /* Adds some space between the text and image */
+    /* text-align: center; */
+    /* -ms-flex-item-align: auto; */
+}
+
+h2 {
+    margin: 0; /* Remove default margin */
+    padding-top: 20px; /* Match the image's top margin */
+    margin-bottom: 30px;
+    color: royalblue;
+}
+
+.Picture img {
+    max-width: 100%;
+    height: auto;
+    width: 600px;
+    height: 400px;
+    margin-top: 20px; /* Same margin as h2 padding-top */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio */
+}
